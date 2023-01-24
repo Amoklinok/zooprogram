@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="zoo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/zoo_jar</output-path>
+    <root id="archive" name="zoo.jar">
+      <element id="module-output" name="zoo" />
+    </root>
+  </artifact>
+</component>
