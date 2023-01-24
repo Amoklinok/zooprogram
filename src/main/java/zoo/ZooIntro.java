@@ -9,7 +9,7 @@ public class ZooIntro {
     Beast snowLeopard = new Beast("Barsik", 1, "beast");
     Bird Dodo = new Bird("Miki", 2, "bird");
     Fish Roach = new Fish("Zigi",0, "fish");
-
+// Dealing with the objects
         Scanner scanner = new Scanner(System.in);
         int num;
         do {System.out.println("Enter your number from 0 to 3: ");
