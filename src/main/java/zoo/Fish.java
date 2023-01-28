@@ -9,15 +9,32 @@ public class Fish extends Creature{
         super(name, age, type);
     }
 
+    // Extended methods
+    @Override
+    public void Breath() {
+        System.out.println("Hey, I have gills and get the air from water :). Bloop ");
+;    }
+
+    @Override
+    public void Move() {
+        System.out.println("I love swimming!");
+
+    }
+    @Override
+    public void printInfo() {
+
+    }
+
+// Presonal method
     public static void makeBubbles()throws FileNotFoundException {
         try {
-            File file = new File("C:\\Users\\User\\IdeaProjects\\zooprogram\\src\\main\\resources\\fish_bubbles!.txt");
+            File file = new File(".\\src\\main\\resources\\fish_bubbles!.txt");
             FileReader fr = new FileReader(file);
             BufferedReader reader = new BufferedReader(fr);
             String line = reader.readLine();
             System.out.println("Fish makes bubbles\n");
 
-            while(line != null) {
+            while (line != null) {
                 System.out.println(line);
                 line = reader.readLine();
             }
@@ -27,16 +44,4 @@ public class Fish extends Creature{
         }
     }
 
-    //Extended actions
-    public void Breath() {
-        super.Breath("Hey, I have gills and get the air from water :). Bloop ");
-    }
-    public void Move(){
-        super.Move("I love swimming!");
-
-    }
-    @Override
-    public void printInfo() {
-        super.printInfo();
-    }
 }

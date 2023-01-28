@@ -35,13 +35,10 @@ public void setType(String NewType){
 }
 
 //Common methods
-public void Breath(String wayOfBreathing) {
-    System.out.println(wayOfBreathing);
-}
-public void Move(String wayOfMoving){
+public abstract void Breath();
 
-    System.out.println(wayOfMoving);
-}
+public abstract void Move();
+
 public void printInfo() {
     System.out.printf("Here is %s, it's a %s and it's age is %d", name, type, age, "\n");
 
