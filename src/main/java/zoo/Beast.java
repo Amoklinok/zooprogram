@@ -11,15 +11,12 @@ public class Beast extends Creature {
     public void Breath() {
         System.out.println("Hey, I have lungs and prefer fresh air!");
     }
-
     @Override
     public void Move() {
-        System.out.println("I like ti move it, move it!");
+        System.out.println("I like to move it, move it!");
     }
-
     @Override
     public void printInfo() {
-
     }
 
     //Personal method

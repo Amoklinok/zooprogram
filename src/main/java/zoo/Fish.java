@@ -18,14 +18,12 @@ public class Fish extends Creature{
     @Override
     public void Move() {
         System.out.println("I love swimming!");
-
     }
     @Override
     public void printInfo() {
-
     }
 
-// Presonal method
+// Personal method
     public static void makeBubbles()throws FileNotFoundException {
         try {
             File file = new File(".\\src\\main\\resources\\fish_bubbles!.txt");

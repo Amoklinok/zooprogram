@@ -11,12 +11,10 @@ public class Bird extends Creature{
     public void Breath() {
         System.out.println("I'm breathing with the air");
     }
-
     @Override
     public void Move() {
     System.out.println("I'm flying in the sky");
     }
-
     @Override
     public void printInfo() {
     }
